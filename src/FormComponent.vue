@@ -1,8 +1,7 @@
 <script setup lang="ts">
 import * as yup from "yup";
 import { ref } from "vue";
-import { validateSchema } from "./utils";
-import type { IValidationErrorSchema } from "./types";
+import { IValidationErrorSchema, validateSchema } from "./utils";
 
 const user = ref({
   name: "",
